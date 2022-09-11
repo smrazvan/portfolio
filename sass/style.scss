@@ -1,0 +1,6 @@
+//reset css
+@use "./partials/reset.scss";
+//apply global styling
+@use "./partials/global.scss";
+//main section
+@use "./partials/main.scss";
