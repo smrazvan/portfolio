@@ -2,5 +2,7 @@
 @use "./partials/reset.scss";
 //apply global styling
 @use "./partials/global.scss";
+//floating menu
+@use "./partials/float-menu.scss";
 //main section
 @use "./partials/main.scss";
