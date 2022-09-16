@@ -1,0 +1,20 @@
+@use "_vars.scss" as vars;
+.float-menu {
+  position: fixed;
+  color: white;
+  background-color: blue;
+  display: flex;
+  justify-content: center;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  width: auto;
+  bottom: 1rem;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.menu-item {
+  padding: 1rem;
+  margin: 0 0.25rem;
+  border-radius: 0.5rem;
+  background-color: red;
+}
